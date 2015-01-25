@@ -2,29 +2,29 @@ body {
   font: 90% georgia, sans-serif;
   line-height: 1.88889;
   color: rgb(0,0,0); 
-  background: #fff url(glass1.jpg) no-repeat bottom right; 
+  background: #fff url(glass1.JPG) no-repeat bottom right; 
   margin: 0; 
   padding: 0;
   }
 
 body#home {
-  background: url(glass1.jpg) no-repeat bottom right; 
+  background: url(glass1.JPG) no-repeat bottom right; 
 }
 
 body#blog {
-  background: #fff url(weave.jpg) no-repeat bottom right;
+  background: #fff url(weave.JPG) no-repeat bottom right;
 }
 
 body#consulting {
-  background: #fff url(glass2.jpg) no-repeat bottom left;
+  background: #fff url(glass2.JPG) no-repeat bottom left;
 }
 
 body#cv {
-  background: #fff url(glass1.jpg) no-repeat bottom left;
+  background: #fff url(glass1.JPG) no-repeat bottom left;
 }
 
 body#contact {
-  background: url(glass2.jpg) no-repeat bottom right;
+  background: url(glass2.JPG) no-repeat bottom right;
   height: 800px; 
 }
 
