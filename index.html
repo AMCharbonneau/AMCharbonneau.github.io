@@ -1,53 +1,946 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 8 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-  <link type="text/css" rel="stylesheet" href="stylesheet.css">
-  <title>Anna Charbonneau</title>
+
+
+   <!--- Basic Page Needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Anna M. Charbonneau, PhD</title>
+	<meta name="Psychology Therapy Help Travel Nomad" content="">
+	<meta name="Anna Charbonneau Seattle Online Counseling" content="">
+
+   <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" >
+
 
 </head>
 
-<body id="home">
-<div class="page-wrapper">
-
-  <header role="banner">
-    <h1>Anna M. Charbonneau, PhD</h1>
-      <div class="navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cv.html">Curriculum Vitae</a></li>
-      <li><a href="consulting.html">Consulting</a></li>
-      <li><a href="travel_blog.html">Travel Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-  </header>
-
-  <div class="nomad">
-    <h2>Nomad</h2>
-    <p>My home base is in Seattle, Washington, USA, but I am currently traveling for an extended period of time. I have spent time in Thailand, Cambodia, Spain, Australia, and New Zealand. Next up, I'll be travelling to Vietnam. I love experiencing new cultures, learning new languages, and seeing how the local people live in each place. I keep up a <a href=https://annactravels.wordpress.com/>travel blog</a> when I am on the road, feel free to check it out!</p>
-  </div>
-
-  <div class="clinician">
-    <h2>Clinical Psychologist</h2>
-    <p>I have a PhD in Clinical Psychology, and am a licensed clinical psychologist in the state of Washington. My speciality is health psychology. I specialize in treating adults who are experiencing mood problems like depression and anxiety and health conditions like cancer and chronic pain. I believe strongly in helping people live better, no matter what is going on their lives. My approach is flexible, but I have a strong preference to cognitive-behavioral therapies (CBT) and teaching stress management skills.</p>
-  </div>
-
- <div class="programmer">
-    <h2>Programmer</h2>
-    <p>As I travel, I have been learning web development. In fact, I wrote this website! I am using Jekyll as my new blogging platform, which should be up and running by March 2015. I have created a simple pomodoro timer to run in the console using Ruby, and I am planning to soup up that timer into a full on app sometime in 2015.</p>
-  </div>
-
-  <div class="researcher">
-    <h2>Research Scientist</h2>
-    <p>My doctoral research project focused on creating a mindfulness meditation based program for first year college students to help prevent depression in what is often an extremely stressful year. Other research projects I have worked on include the NIH-funded Health SMART intervention for women at risk for breast and ovarian cancer with Dr. Bonnie McGregor at the Fred Hutchinson Cancer Research Institute, neurological signs of PTSD in Vietnam Veterans with Dr. Tamara Gurvitz and the research group at the Manchester NH VA, as well as interventions to prevent depression in adolescents with my graduate school advisor Dr. Amy H. Mezulis.</p>
-  </div>
-
-  <footer>
-  </footer>
+<body data-spy="scroll" data-target="#nav-wrap">
 
 
+   <!-- Header
+   ================================================== -->
+   <header class="mobile">
+
+      <div class="row">
+
+         <div class="col full">
+
+            <!-- <div class="logo">
+               <a href="#"><img alt="" src="images/logo.png"></a>
+            </div> -->
+
+            <nav id="nav-wrap">
+
+               <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	            <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+               <ul id="nav" class="nav">
+	               <li><a href="#intro">Home</a></li>
+	               <li><a href="#services">Consulting and Therapy</a></li>
+                  <li><a href="#about">About My Practice</a></li>
+	               <li><a href="#journal">Resources for People in Therapy</a></li>
+                  <li><a href="#portfolio">About Me</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+
+            </nav>
+
+         </div>
+
+      </div>
+
+   </header> <!-- Header End -->
+
+
+   <!-- Intro Section
+   ================================================== -->
+   <section id="intro">
+
+      <!-- Flexslider Start-->
+	   <div id="intro-slider" class="flexslider">
+
+		   <ul class="slides">
+
+			   <!-- Slide -->
+			   <li>
+				   <div class="row">
+					   <div class="col full">
+						   <div class="slider-text">
+							   <h2>Welcome! I'm <span>Dr. Anna Charbonneau</span>. I am a clinical <span>psychologist</span> based in Seattle, WA.</h2>
+
+							   <p>I run an online practice geared towards entrepreneurs, start up founders, and people who travel or live abroad as a way of life.</p>
+						   </div>
+					   </div>
+				   </div>
+			   </li>
+
+            <!-- Slide -->
+			   <li>
+				   <div class="row">
+					   <div class="col full">
+						   <div class="slider-text">
+							   <h2>Feeling <a href="#services" title="">stressed out</a> or burnt out? Successful</a> but still feel like something is missing? <a href="#services" title="">Therapy</a> could help.</h2>
+							   <p>I've put together resources and common questions about my practice for you.</p>
+						   </div>
+					   </div>
+				   </div>
+			   </li>
+
+                  <!-- Slide -->
+            <li>
+               <div class="row">
+                  <div class="col full">
+                     <div class="slider-text">
+                        <h2>Are you already in therapy but feel like it's <a href="#journal" title="">not working</a>? Need help figuring out how to  <a href="#journal" title="">get more</a> out of your therapy?</h2>
+                        <p>Click above for to see resources I've put together to help you get more out of therapy.</p>
+                     </div>
+                  </div>
+               </div>
+            </li>
+
+		   </ul>
+	   </div>
+	   <!-- Flexslider End-->
+
+   </section> <!-- Intro Section End-->
+
+
+   <!-- Services Section
+   ================================================== -->
+   <section id="services">
+
+      <div class="row section-head">
+
+         <div class="col one-third">
+            <h2>Consulting and Therapy Services</h2>
+            <p class="desc"> Interested?<a href="#contact" title=""> Get in touch.</a></p>
+         </div>
+
+         <div class="col two-thirds">
+            <div class="intro">
+             <p>I specialize in helping people with uncommon or high stress ways of living. People like entrepreneurs, start up founders, and people who travel or live abroad as a way of life.</p>
+             <p>Below are answers to some common questions I get about therapy, and a bit about my approach.</p>
+              </p>
+            </div>
+         </div>
+
+
+      </div>
+
+      <div class="row">
+
+         <div class="services-wrapper">
+
+            <div class="col">
+               <h2><i class="icon-globe"></i>What can you expect from sessions with me?</h2>
+               <p>As a psychologist, I bring an evidence-based, practical approach to each session with the aim of helping people feel better and live better. I listen carefully and without judgement. I take a flexible approach to my work, and can accommodate a range of needs, from simply listening to actively collaborating in specific goals.</p>
+            </div>
+
+            <div class="col">
+               <h2>Everything is going so well, why am I unhappy?</h2>
+               <p>You “should” feel happy, but you don’t. Why? All change, even “good” changes, usually comes with totally unexpected challenges that we are not really prepared to handle. Sometimes achieving lifelong goals, rather than resulting in happiness, can kick off a deep sense of feeling lost or depressed.</p> 
+            </div>
+
+            <div class="col m-first">
+               <h2>Do I even need therapy?</h2>
+               <p>Sometimes it’s tempting to think that problems are too insignificant, too trivial, to deserve to be addressed. The truth is that feeling unhappy, unfulfilled, numb, worried, or sad most of the time is a real problem and it does deserve to be addressed. It is possible to get better, but in order to even have a chance of feeling better, you have to do something differently. </p>
+            </div>
+
+            <div class="col first">
+               <h2>How long is it going to take to feel better?</h2>
+               <p>The length of time or number of sessions people see me depend on a few things, including the types of issues and how ready and willing someone is to make changes. In general, you should start seeing some improvement within 4 weeks. I generally emphasize if you are feeling no improvements at all after 6 weeks, it may be time to re-evaluate and change tactics.</p>
+            </div>
+
+            <div class="col m-first">
+               <h2>Shouldn't I be able to figure this out on my own?</h2>
+               <p>Chances are, if you do nothing, you might feel better on your own in a few months or years. Therapy can be a way to navigate these times of change more efficiently, so you spend less time floundering around feeling lost and more time enjoying your life. Can you work through it on your own? Probably. But you don’t have to. </p>
+            </div>
+
+            <div class="col">
+               <h2>Is “just talking” really going to help me?</h2>
+               <p>Keeping silent about issues, ignoring them, or hoping they will go away is a lot like fearing a monster in the closet. Therapy is like opening the closet door and turning on the light, with someone you can trust by your side to back you up. Beyond that, therapy also usually involves learning and practicing new skills and trying out new ways of thinking, acting, and relating to others to help you begin to feel better.</p>
+            </div>
+
+         </div> <!-- Services-Wrapper End -->
+
+      </div> <!--end row -->
+
+   </section> <!-- Services Section End -->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+         <div class="col full">
+
+            <h2>About Me</h2>
+            <p class="desc"></p>
+
+            <h3>My Credentials and Training</h3>
+            <p>I attended graduate school at Seattle Pacific University and earned my PhD in Clinical Psychology. I have been licensed as a Clinical Psychologist in the state of Washington since 2012. In graduate school, my major areas of research included cancer prevention and prevention of depression in women. I have published several papers and book chapters on those topics.</p>
+            <p>My clinical experience has included a wide variety of settings, including working in inpatient and outpatient hospitals and primary care, urgent care, and pain management clinics. I have specialized in working with people experiencing major life transitions, including people with significant medical conditions such as chronic pain and cancer.</p>
+            <p>My current efforts are focused on running a small private practice and building tools to help therapists run their practices. I am passionate about increasing access to mental health services for all people.</p> 
+
+            <h3>Me As a Fellow Human</h3>
+
+            <p>I know deeply what it is like to struggle, to feel unhappy, burnt out, and stressed out. I have also been experimenting with ways to overcome those feelings and start living a life that I love. Each person’s struggle is individual, and so is each person’s path to happiness and fulfillment. In my work with people, I hope not to simply encourage everyone do to what I have done and what I am doing, but to help each person discover how to live in a way that truly gives the best sense of well-being and fulfillment possible.</p> 
+
+            <p>In April 2014 I quit my job as a consulting psychologist to a medical practice, and left Seattle to travel around the world for the foreseeable future. Since that time, I’ve hiked over the continental divide on foot, encountered a grizzly bear, co-founded a start-up, and swam in the Andaman Sea. I am not a tough or brave person by nature, but I do love challenging myself. I find that doing the hardest things often comes with the biggest rewards.</p> 
+
+            <p>Here are a few photos I've taken along the way.</p>
+
+         </div>
+      </div>
+
+      <div class="row">
+
+		   <!-- Portfolio Wrapper -->
+		   <div id="portfolio-wrapper">
+
+			   <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-01"><img src="images/portfolio/koh-lanta.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5>Koh Lanta, Thailand</h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-02"><img src="images/portfolio/kyoto.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5>Bamboo Forest, Kyoto</h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-03"><img src="images/portfolio/yellowstone.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5>Yellowstone National Park</h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-04"><img src="images/portfolio/tokyo.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5>Ueno Park, Tokyo</h5>
+					   </div>
+               </div>
+			   </div>
+
+          <!--  <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-05"><img src="images/portfolio/judah.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Judah</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-06"><img src="images/portfolio/vector-flower.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Vector Flower</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-07"><img src="images/portfolio/clock.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Clock</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+            <div class="col portfolio-item">
+               <div class="item-wrap">
+					   <a href="#" data-reveal-id="modal-08"><img src="images/portfolio/fields.jpg" alt=""/></a>
+					   <div class="portfolio-item-meta">
+						   <h5><a href="#">Fields</a></h5>
+					   </div>
+               </div>
+			   </div>
+
+		   </div> <!-- Portfolio Wrapper End -->
+
+
+		</div> <!-- End Row -->
+
+
+      <!-- Modal Popup
+	   =========================================================== -->
+
+      <!-- modal-01 
+	   <div id="modal-01" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-cosmic-sneakers.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>The Cosmic Sneakers</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span>
+		   </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div><!-- modal-01 End -->
+
+      <!-- modal-02 
+	   <div id="modal-02" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-milk-splash.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Milk Splash</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-02 End -->
+
+      <!-- modal-03 
+	   <div id="modal-03" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-eve.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Eve</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Photography, Branding</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-03 End -->
+
+      <!-- modal-04 
+	   <div id="modal-04" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-sneaker-splash.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Sneaker Splash</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Photography, Branding</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-04 End -->
+
+      <!-- modal-05 
+	   <div id="modal-05" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Judah</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Photography, Web Design</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-05 End -->
+
+      <!-- modal-06 
+	   <div id="modal-06" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-vector-flower.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Vector Flower</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-06 End -->
+
+      <!-- modal-07 
+	   <div id="modal-07" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-clock.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Clock</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Branding, Web Design</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-07 End -->
+
+      <!-- modal-08 
+	   <div id="modal-08" class="reveal-modal">
+
+		   <img class="scale-with-grid" src="images/portfolio/modals/m-fields.jpg" alt="" />
+
+		   <div class="description-box">
+			   <h4>Fields</h4>
+			   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories"><i class="icon-tag"></i>Photography</span>
+         </div>
+
+         <div class="link-box">
+            <a href="http://www.behance.net">Details</a>
+		      <a class="close-reveal-modal">Close</a>
+         </div>
+
+	   </div> <!-- modal-08 End -->
+
+   </section> <!-- Portfolio End -->
+
+   <!-- Journal Section
+   ================================================== -->
+   <section id="journal">
+
+      <div class="row section-head">
+         <div class="col full">
+            <h2>Resources For People in Therapy</h2>
+            <p class="desc">Here are a few articles I put together to answer some common questions about finding and engaging in therapy. Have more questions? <a href="#contact" title="">Contact me</a> with your question and I'll make a new post!</p>
+         </div>
+      </div>
+
+      <!-- Blog Entries -->
+      <div class="blog-entries">
+
+         <!-- Entry -->
+         <article class="entry">
+
+            <div class="row entry-header">
+
+             <!--  <div class="author-image">
+                  <img src="images/user-03.png" alt="Sakura Haruno" />
+               </div> -->
+
+               <div class="col g-9 offset-1 entry-title">
+                  <h3><a href="blog-single.html">Can I Get Therapy Online?</a></h3>
+               </div>
+
+               <div class="col g-2">
+                  <p class="post-meta">
+                     <time pubdate="" class="post-date" datetime="2015-04-01">April 1, 2015</time>
+                     <span class="dauthor">Anna Charbonneau</span>
+                  </p>
+               </div>
+
+            </div>
+
+            <div class="row">
+
+               <div class="col g-9 offset-1 post-content">
+                  <p>In the past, there was only one option for getting therapy: going in person. Now, however, with advances in connectivity and media, there are many more options for seeking out therapy, including therapy over the telephone or online. But it can be really hard to find quality help. Here is a short guide. 
+                  <a href="blog-single.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+               </div>
+
+            </div>
+
+         </article> <!-- Entry End -->
+
+         <!-- Entry -->
+         <article class="entry">
+
+            <div class="row entry-header">
+
+              <!-- <div class="author-image">
+                  <img src="images/user-03.png" alt="John Doe" />
+               </div> -->
+
+               <div class="col g-9 offset-1 entry-title">
+                  <h3><a href="therapy-not-going-well.html">Therapy not going well? How to request a change from your therapist.</a></h3>
+               </div>
+
+               <div class="col g-2">
+                  <p class="post-meta">
+                     <time pubdate="" class="post-date" datetime="2013-03-01">March 1, 2015</time>
+                     <span class="dauthor">By Anna Charbonneau</span>
+                  </p>
+               </div>
+
+            </div>
+
+            <div class="row">
+
+               <div class="col g-9 offset-1 post-content">
+                  <p>Is there something bothering you in therapy? Something not going as well as you'd like? If there is something you would like to be different about therapy, you have the right to request changes! Communication, especially when unhappy or dissatisfied, can be really hard for some people but it does not have to be. 
+                  <a href="therapy-not-going-well.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+               </div>
+
+            </div>
+
+         </article> <!-- Entry End -->
+
+         <!-- Entry -->
+         <article class="entry">
+
+            <div class="row entry-header">
+
+               <!-- <div class="author-image">
+                  <img src="images/user-03.png" alt="Naruto Uzumaki" />
+               </div> -->
+
+               <div class="col g-9 offset-1 entry-title">
+                  <h3><a href="what-type-of-therapist.html">Which Therapist is Right for Me?</a></h3>
+               </div>
+
+               <div class="col g-2">
+                  <p class="post-meta">
+                     <time pubdate="" class="post-date" datetime="2015-02-01">Feb 1, 2015</time>
+                     <span class="dauthor">By Anna Charbonneau</span>
+                  </p>
+               </div>
+
+            </div>
+
+            <div class="row">
+
+               <div class="col g-9 offset-1 post-content">
+                  <p>Finding the right person to help with your problem can be intimidating at the start. All professionals at all levels can be great or terrible or somewhere in between at counseling. You really need to find someone you're comfortable with, regardless of their degree. But these tips can help you narrow down the search and hopefully find the right person more quickly.
+                  <a href="what-type-of-therapist.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
+               </div>
+
+            </div>
+
+         </article> <!-- Entry End -->
+
+      </div> <!-- Blog Entries End -->
+
+   </section>  <!-- Journal Section End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row section-head">
+
+         <div class="col one-fourth">
+            <h2>About My Practice</h2>
+            <p class="desc">Info on fees, confidentiality, etc.</p>
+         </div>
+
+         <div class="col three-fourths">
+             <p class="intro">I run my practice remotely, which means that all sessions and communications are completed online, through confidential videoconferencing, voice/phone or email. Each client must have their own hardware (like a laptop, phone, or computer) and a quiet, private space with reliable internet or phone access. For more about who I see and how I specialize, check out the <a href="#services" title="">Consulting and Therapy</a> services section.</p>
+             <p>If you are in extreme distress, experiencing thoughts of harming yourself or others, or simply need to get connected to services immediately, please utilize a crisis/urgent service. <a href="http://www.suicidepreventionlifeline.org/">If you are in the US click here</a> or if you are in another country and experiencing a crisis, search the internet with the keyword “mental health crisis hotline” and the name of the country where you are currently located.</p>
+         </div>
+
+      </div>
+
+      <div class="row">
+         <div class="col full"><h3>The Specifics.</h3></div>
+      </div>
+
+      <div class="row process-wrap">
+
+         <div class="col">
+            <h4>Fees.</h4>
+
+            <p>I offer video and voice/telephone sessions in varying lengths. I have lower costs, given that I do not have a physical office location, so I am happy to provide the same services at lower cost to my clients. The cost of my service is $40 per 20 minutes.</p>
+          
+            <p>Sessions are prorated based on length and always by prior agreement.</p>
+			</div>
+
+         <div class="col">
+            <h4>Confidentiality.</h4>
+
+            <p>I take your privacy very seriously and maintain high standards of protection for your data. I only use technology that meets the security standards set by HIPAA (laws that regulate medical data and privacy in the US).</p>
+            <p>Keeping your therapist separate from the rest of your life has many benefits and helps ensure your privacy. If we are already friends socially, I am happy to provide referrals, but I cannot provide therapy services to you.</p>
+            </p>
+			</div>
+
+         <div class="col m-first">
+            <h4>Insurance.</h4>
+
+            <p>If you have insurance, you can call your insurance company to ask them whether they cover therapy services that are not delivered in person. As of 2015, only a few insurance companies do so. I am happy to provide you a bill for services that includes the information you need to submit the claim for reimbursement. I do not bill insurance companies directly. </p>
+			</div>
+
+         <div class="col">
+            <h4>What I Cannot Do.</h4>
+
+            <p>Due to the limitations of a solo, online practice, I cannot ethically agree to treat certain problems that would be better suited to treatment in person (very severe emotional swings or frequent crisis needs, for example). If I feel you do need those types of services, I will tell you immediately and do my best to help you get connected with appropriate services in your area. 
+            </p>
+			</div>
+
+
+      </div> <!-- Process Wrap End 
+
+      <div class="row">
+         <div class="col full"><h3>Meet The Team.</h3></div>
+      </div>
+
+
+      <!-- Team Wrap End 
+      <div class="row team-wrap">
+
+         <div class="col one-fourth">
+
+            <img src="images/team/team-img-01.jpg" alt=""/>
+
+            <div class"member-name">
+               <h5>Naruto Uzumaki</h5>
+               <span>Director</span>
+            </div>
+
+            <ul class="member-social">
+               <li><a href="#"><i class="icon-facebook"></i></a></li>
+               <li><a href="#"><i class="icon-twitter"></i></a></li>
+               <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+               <li><a href="#"><i class="icon-linkedin"></i></a></li>
+               <li><a href="#"><i class="icon-skype"></i></a></li>
+            </ul>
+
+			</div>
+
+         <div class="col one-fourth">
+
+            <img src="images/team/team-img-02.jpg" alt=""/>
+
+            <div class"member-name">
+               <h5>Sakura Haruno</h5>
+               <span>Director</span>
+            </div>
+
+            <ul class="member-social">
+               <li><a href="#"><i class="icon-facebook"></i></a></li>
+               <li><a href="#"><i class="icon-twitter"></i></a></li>
+               <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+               <li><a href="#"><i class="icon-linkedin"></i></a></li>
+               <li><a href="#"><i class="icon-skype"></i></a></li>
+            </ul>
+
+			</div>
+
+         <div class="col one-fourth">
+
+            <img src="images/team/team-img-03.jpg" alt=""/>
+
+            <div class"member-name">
+               <h5>Sasuke Uchiha</h5>
+               <span>Senior Web Designer</span>
+            </div>
+
+            <ul class="member-social">
+               <li><a href="#"><i class="icon-facebook"></i></a></li>
+               <li><a href="#"><i class="icon-twitter"></i></a></li>
+               <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+               <li><a href="#"><i class="icon-linkedin"></i></a></li>
+               <li><a href="#"><i class="icon-skype"></i></a></li>
+            </ul>
+
+			</div>
+
+         <div class="col one-fourth">
+
+            <img src="images/team/team-img-03.jpg" alt=""/>
+
+            <div class"member-name">
+               <h5>Shikamaru Nara</h5>
+               <span>Web Designer</span>
+            </div>
+
+            <ul class="member-social">
+               <li><a href="#"><i class="icon-facebook"></i></a></li>
+               <li><a href="#"><i class="icon-twitter"></i></a></li>
+               <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+               <li><a href="#"><i class="icon-linkedin"></i></a></li>
+               <li><a href="#"><i class="icon-skype"></i></a></li>
+            </ul>
+
+			</div>
+
+      </div> <!-- Team Wrap End -->
+
+      <!-- Testimonials
+      <div class="row">
+
+         <div class="col full section-head">
+            <h2>Testimonials</h2>
+            <p class="desc">What our clients are saying.</p>
+         </div>
+
+      </div>
+
+      <div class="row testimonials">
+
+         <div class="col half">
+
+            <div class="client-author">
+               <img src="images/client-img.png" alt="" />
+               <div class="name">
+                  <p>John Doe<span>Designer</span></p>
+               </div>
+            </div>
+
+		      <div class="client-cite">
+			      <p>Phasellus - ut augue at sapien bibendum bibendum amet magna. Aenean condimentum, lacus sit amet luctus lobortis,
+               enim tellus ultrices elit, amet consequat enim elit noneas.</p>
+		      </div>
+
+         </div>
+
+         <div class="col half">
+
+            <div class="client-author">
+               <img src="images/client-img.png" alt="" />
+               <div class="name">
+                  <p>Michael Smith<span>CEO</span></p>
+               </div>
+            </div>
+
+		      <div class="client-cite">
+			      <p>Nascetur augue hac platea enim, egestas pulvinar vut. Pulvinar cum, ac eu, tristie
+               acus duis in dictumst non integer. Elit, sed scelerisque odio tortor, sed platea dis.
+               Aenean condimentum, lacus sit amet luctus lobortis,
+               enim tellus ultrices elit.</p>
+		      </div>
+
+         </div>
+
+      </div> <!--  Testimonials End-->
+
+
+   </section> <!-- About Section End-->
+
+   <!-- Call-to-Action Section
+   ================================================== -->
+  <!-- <section id="call-to-action">
+
+      <div class="row">
+
+         <div class="col three-fourths">
+
+            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
+            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
+
+         <!-- </div>
+
+         <div class="col one-fourth action">
+
+            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
+
+         </div>
+
+      </div>
+
+
+
+   </section> <!-- Call-to-Action Section End-->
+
+   <!-- Map Section
+   ================================================== 
+   <section id="map">
+
+      <p class="map-error">Something went wrong... Unable to load map... Please try to enable javascript</p>
+
+   </section> <!-- Map Section End-->
+
+    <!-- Contact Section
+   ================================================== -->
+
+   <section id="contact">
+
+      <div class="row section-head">
+         <div>
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! However, please note that this email is not a secure form for submitting personal information, nor can I guarantee a timely response. If you have urgent need for care, please contact your local crisis response line or emergency care facility. </p>
+
+            <h2>Contact Information</h2>
+
+            <p>Anna M. Charbonneau<br />
+            Licensed Clinical Psychologist <br />
+            </p>
+
+            <p>
+            Home base: Seattle, WA<br />
+            Current location: Thailand <br />
+            Email: annacharbonneauphd [@] gmail.com<br />
+            </p><br />
+
+
+
+            <p>P.S. I created this website. The design for this website was inspired by <a href="http://www.styleshout.com/">styleshout.com</a>, which was 
+            released and licensed under the <a href="http://creativecommons.org/licenses/by/3.0/" rel="license"> creative common license</a>.</p>
+         </div>
+      </div>
+
+      <!-- <div class="row">
+
+         <div class="col g-7">
+
+           <!-- form 
+            <form name="contactForm" id="contactForm" method="post" action="">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input name="contactName" type="text" id="contactName" size="35" value="" />
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input name="contactEmail" type="text" id="contactEmail" size="35" value="" />
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input name="contactSubject" type="text" id="contactSubject" size="35" value="" />
+                  </div>
+
+                  <div>
+                     <label  for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea name="contactMessage"  id="contactMessage" rows="15" cols="50" ></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img src="images/loader.gif" alt="" />
+                     </span>
+                  </div>
+
+					</fieldset>
+				</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+           <!-- <div id="message-warning"></div>
+            <!-- contact-success 
+				<div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+				</div>
+
+         </div> -->
+
+
+    <!--     <aside class="col g-5">
+
+            <h3>Contact Information</h3>
+
+            <p>Anna M. Charbonneau</p>
+
+            <p>
+            Licensed Clinical Psychologist <br />
+            Seattle, WA
+            </p>
+
+            <p>
+            Current location: Thailand <br />
+            Email: annacharbonneauphd [@] gmail.com
+             * You are welcome to email me! Before you do please note: (1) This email is not a confidential or secure medium for health information, and (2) not for crisis response.
+            </p><br />
+
+            <h3>Template Info</h3>
+
+            <p>The design for this website was inspired by <a href="http://www.styleshout.com/">styleshout.com</a>, which was 
+		      released and licensed under the <a href="http://creativecommons.org/licenses/by/3.0/" rel="license"> creative common license</a>.
+		 
+            </p>
+
+         </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+     
+
+     <!-- <div class="row">
+
+         <div class="col g-7">
+            <ul class="copyright">
+               <li>&copy; 2014 Kreative</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout">Styleshout</a></li>               
+            </ul>
+         </div>
+
+         <div class="col g-5 pull-right">
+            <ul class="social-links">
+               <li><a href="#"><i class="icon-facebook"></i></a></li>
+               <li><a href="#"><i class="icon-twitter"></i></a></li>
+               <li><a href="#"><i class="icon-google-plus-sign"></i></a></li>
+               <li><a href="#"><i class="icon-linkedin"></i></a></li>
+               <li><a href="#"><i class="icon-skype"></i></a></li>
+               <li><a href="#"><i class="icon-rss-sign"></i></a></li>
+            </ul>
+         </div>
+
+      </div> -->
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/scrollspy.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/jquery.reveal.js"></script>
+   <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+   <script src="js/gmaps.js"></script>
+   <script src="js/init.js"></script>
+   <script src="js/smoothscrolling.js"></script>
 
 </body>
-</html>
 
+</html>
